@@ -54,6 +54,7 @@ class PageConfiguration {
   final String key;
   final String path;
   final Pages uiPage;
+  //PageAction currentPageAction;
 
   const PageConfiguration(
       {@required this.key, @required this.path, @required this.uiPage});
